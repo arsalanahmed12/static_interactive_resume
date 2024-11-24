@@ -91,13 +91,13 @@ hr {
 li {
   font-size: 20px;
 }
-@media (max-width:768px){
+@media (max-width:639px){
   .profile{
-    height: 130px;
-    width: 130px;
+    height: 100px;
+    width: 100px;
   }
   h1{
-    font-size: 20px;
+    font-size: 17px;
     padding-left: 10px;
   }
   h3{
@@ -105,13 +105,13 @@ li {
     padding-left: 10px;
   }
   p, li, b{
-    font-size: 14px;
+    font-size: 10px;
     text-align: left;
     hyphens: auto;
     
   }
 }
-@media (min-width:769px)
+@media (min-width:640px)
 and (max-width:1024px){
   .profile{
     height: 160px;
