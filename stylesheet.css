@@ -20,8 +20,8 @@ body {
 .left {
   padding: 20px;
   width: 35%;
-  background-color: rgb(15, 159, 226);
-  color: black;
+  background-color: #1b4784;
+  color: white;
   border-right: 5px solid black;
 }
 
@@ -152,5 +152,11 @@ and (max-width:1280px){
     hyphens: auto;
     
   }
+}
+a{
+  color: rgb(96, 96, 245);
+}
+.abilities{
+  /* background-color: rgb(209, 21, 21); */
 }
 
