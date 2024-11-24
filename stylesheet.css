@@ -154,9 +154,5 @@ and (max-width:1280px){
   }
 }
 a{
-  color: rgb(96, 96, 245);
+  color: antiquewhite;
 }
-.abilities{
-  /* background-color: rgb(209, 21, 21); */
-}
-
