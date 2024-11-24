@@ -9,6 +9,15 @@ body {
   box-shadow: 0 0 20px black;
   border-radius: 10px;
 }
+.profile {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 3px solid black;
+  box-shadow: 0 0 15px black;
+  display: flex;
+  margin: 0 auto;
+}
 .left {
   padding: 20px;
   width: 35%;
@@ -16,15 +25,7 @@ body {
   color: black;
   border-right: 5px solid black;
 }
-.profile {
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
-  margin-left: 22%;
-  border: 3px solid black;
-  box-shadow: 0 0 15px black;
 
-}
 h1 {
   margin: 10px 0;
   margin-bottom: 30px;
@@ -57,13 +58,12 @@ ul li {
   background-color: white;
   text-align: justify;
 }
- button {
+button {
   border-radius: 10px;
   cursor: pointer;
   margin-top: 20px;
   font-size: 18px;
-  
-} 
+}
 button:hover {
   background-color: black;
   color: aliceblue;
@@ -71,23 +71,87 @@ button:hover {
 p {
   font-size: 20px;
 }
-hr{
-  border-style:solid;
+hr {
+  border-style: solid;
   border-width: 4px;
- color: rgb(46, 2, 2);
- border-radius: 50%;
+  color: rgb(46, 2, 2);
+  border-radius: 50%;
 }
-.abilities{
+.abilities {
   width: 60%;
   height: 20px;
   margin: 0 10px;
   position: relative;
+}
+#file {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+li {
+  font-size: 20px;
+}
+@media (max-width:768px){
+  .profile{
+    height: 130px;
+    width: 130px;
   }
-  #file{
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    margin-top: 20px;}
-    li{
-      font-size: 20px;
-    }
+  h1{
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  h3{
+    font-size: small;
+    padding-left: 10px;
+  }
+  p, li, b{
+    font-size: 14px;
+    text-align: left;
+    hyphens: auto;
+    
+  }
+}
+@media (min-width:769px)
+and (max-width:1024px){
+  .profile{
+    height: 160px;
+    width: 160px;
+  }
+  h1{
+    font-size: 28px;
+    padding-left: 10px;
+  }
+  h3{
+    font-size: medium;
+    padding-left: 10px;
+  }
+  p, li, b{
+    font-size: 20px;
+    text-align: left;
+    hyphens: auto;
+    
+  }
+}
+@media (min-width:1025px)
+and (max-width:1280px){
+  .profile{
+    height: 180px;
+    width: 180px;
+  }
+  h1{
+    font-size: 32px;
+    padding-left: 10px;
+  }
+  h3{
+    font-size: medium;
+    padding-left: 10px;
+  }
+  p, li, b{
+    font-size: 22px;
+    text-align: left;
+    hyphens: auto;
+    
+  }
+}
+
